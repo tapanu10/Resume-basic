@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        section {
+            width: 80%; /* Adjust the width as needed */
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section > div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        section h2 {
+            text-align: center;
+        }
+        section .june {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        section .june div {
+            flex: 1;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        
+
+        section .fourr {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        section .f {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        section .sev {
+            list-style-type: disc;
+            padding-inline-start: 20px;
+        }
+
+        section .sev div {
+            flex: 1;
+        }
+
+        section .sev li {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            section {
+                width: 100%;
+            }
+
+            
+            section .fourr,
+            section .f {
+                flex-direction: column;
+            }
+
+            section .sev div {
+                flex: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <h1>
+            <span>T</span><span>a</span><span>p</span><span>a</span><span>n</span> <span>U</span><span>p</span><span>a</span><span>d</span><span>h</span><span>y</span><span>a</span><span>y</span>
+        </h1>
+        <div id="hiddenMessage">My name is Tapan Upadhyay</div>
+
+        <h2 id="one"><span>Tapanu10@gmail.com</span> | <span>+91 8953949920</span></h2>
+
+        <hr>
+
+        <section>
+            <h2 id="two"><strong>Education</strong></h2>
+            <section class="june">
+                <div>
+                    <p><strong id="gl">GL BAJAJ</strong></p>
+                    <H3>B.TECH IN INFORMATION TECHNOLOGY</H3>
+                    <P>2020-2024|GREATER NOIDA</P>
+                    <P>CGPA 7.6|10.0</P>
+                </div>
+
+                <DIV>
+                    <p><strong>Lucknow Public School</strong></p>
+                    <H3>12th Board | CBSE</H3>
+                    <P>2019 - 2020 | Lucknow</P>
+                    <P>GRADE: 80%</P>
+                </DIV>
+
+                <div>
+                    <p><strong>D.A.V Public School</strong></p>
+                    <H3>10th Board | CBSE</H3>
+                    <P>2017 - 2018 | Singrauli</P>
+                    <P>GRADE: 82.6%</P>
+                </div>
+            </section>
+
+            <h2 id="three">LINKS</h2>
+            <section class="links">
+                <div id="l1"><a href="https://www.linkedin.com/in/tapan-upadhyay-18a397216/" target="_blank">LINKEDIN</a></div>
+                <div id="l2"><a href="https://leetcode.com/Tapanu10/ " target="_blank">LEETCODE</a></div>
+                <div id="l3"><a href="https://auth.geeksforgeeks.org/user/tapanu10/practice">GEEKSFORGEEKS</a></div>
+                <div id="l4"><a href="https://github.com/tapanu10">GITHUB</a></div>
+            </section>
+
+            <h2 id="four">COURSEWORK</h2>
+            <section class="fourr">
+                <div>
+                    <h4>Data Structure and Algorithm</h4>
+                </div>
+                <div>
+                    <h4>C C++</h4>
+                </div>
+                <div>
+                    <h4>Object Oriented Programming(OOP)</h4>
+                </div>
+                <div>
+                    <h4>Database Management System(DBMS)</h4>
+                </div>
+                <div>
+                    <h4>Operating System(OS)</h4>
+                </div>
+            </section>
+
+            <section>
+                <h2 id="five">SKILLS</h2>
+                <div class="f">
+                    <h4>Programming Languages</h4>
+                    <P><strong>5000 lines:</strong> • C • C++</P>
+                    <h4>Databases:</h4>
+                    <p>MySQL</p>
+                    <h4>Frameworks</h4>
+                    <p>•React Js •Node js</p>
+                </div>
+            </section>
+
+            <h2 id="six">Projects</h2>
+            <section class="project">
+                <p><strong><bold>Notes Arena</bold> Web/React-Js/Node.js/MongoDB</strong> <br> Problem: Students that
+                    do not like to make notes during but search for the notes during exam time. <br> •Students who
+                    have notes can upload their note on site. <br> •Any student can download the Notes from this
+                    website. <br> •Students can search the notes according to files name.
+                </p>
+            </section>
+        </section>
+
+        <h2 id="seven">ACHIEVEMENTS</h2>
+        <ul style="list-style-type: disc;" class="sev">
+            <div><li> Solved 500+ Data Structure and Algorithmic Problems.</a></li></div>
+            <div><li><a href="https://drive.google.com/file/d/1-UmJxcSJ2iNQWKgPGx972hyWyhRtcc9G/view"
+                        id="l22">Qualified Round 1 in Codechef Snackdown Round 1A</a></li></div>
+            <div><li><a href="https://drive.google.com/file/d/1ThlYf8anqrx3vUJKpyWXJBwg_adIjdHm/view"
+                        id="l33">Participated in Institute level Idea Competition </a>
+                </li>
+            </div>
+            <li><a href="https://drive.google.com/file/d/1oVQ_61YQYf5kX-4d
+            KJkY8LChOyL2hARw/view" id="l44">2nd Winner in “Techathon” organized at institute level </a>
+            </li>
+        </ul>
+    </section>
+</body>
+
+</html>
